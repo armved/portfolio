@@ -1,0 +1,32 @@
+.general-info {
+  color: white;
+}
+
+.general-info-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.avatar {
+  width: 400px;
+  border-radius: 100%;
+  box-shadow: 0 0 8px 0px rgba(0,0,0,0.75);
+  transition: all .2s ease-in-out;
+}
+
+.avatar:hover {
+  box-shadow: 0 0 15px 1px rgba(0,0,0,0.75);
+}
+
+.name {
+  text-align: center;
+  font-size: 92px;
+  font-weight: 700;
+}
+
+.title {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 600;
+}
